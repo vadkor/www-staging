@@ -1,0 +1,154 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	font-size: 1.2em;
+}
+#container {
+	height:100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#footer {
+	height:20px;   /* Height of the footer */
+	text-align:center;
+	font-size: 12pt;
+}
+#body {
+	padding: 10px 50px;
+	background:#fff;
+	font: 0.8em Verdana, Arial, Helvetica, sans-serif;
+}
+#header {
+	height: 70px;
+}
+#header, #footer, .button, .solebutton, .bordertbl {
+	background: #6699CC;
+}
+#header table {
+	height: 50px;
+	padding-top: 17px;
+}
+#logo, #title {
+	float: left;
+}
+#logo {
+	padding-left: 50px;
+}
+#company, #slogan {
+	padding: 0;
+}
+#company {
+	font: italic bold 22pt Times New Roman, serif;
+}
+#slogan {
+	font: 7pt Arial, Helvetica, sans-serif;
+}
+#sizeswitcher {
+	float: right;
+	padding: 43px 25px 0 0;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.3em;
+}
+/*
+h1, h2, h3 {
+	margin: 10px;
+}
+*/
+.scrshotsicons img {
+	padding: 5px;
+}
+a:link, a:visited {
+	color: blue;
+}
+pre {
+	border: 1px dashed black;
+	background-color: #ffffe1;
+	padding: 3px;
+	font-size: 1.1em;
+}
+.error {
+	color: red;
+	padding-left: 10px;
+	font-size: 1.2em;
+}
+
+/* -------------------------------------------------- */
+/* menutabs */
+/* -------------------------------------------------- */
+#menutabs {
+	padding:0;
+	border-top:6px solid #cde5ff;
+	font-family: Verdana, Arial, sans-serif, Helvetica;
+	font-size: 1em;
+}
+#menutabs td {
+	background:#cde5ff;
+	padding:20px 10px 6px 10px;
+	border-right: 1px solid #fff;
+	text-align:center;
+	width: 6.1em;
+}
+#menutabs a {
+	margin:0 1px 0 0;
+	text-decoration:none;
+	color:#000;
+}
+#menutabs a:hover {
+	text-decoration: underline;
+}
+#menutabs td.active {
+	font-weight: bold;
+}
+
+/* -------------------------------------------------- */
+/*               Text Size Toggler                    */
+/* -------------------------------------------------- */
+.xsmallview{ /*CSS for "extra small font" setting*/
+font-size: 11px;
+}
+
+.smallview{ /*CSS for "small font" setting*/
+font-size: 13px;
+}
+
+.normalview{ /*CSS to return page to default setting (with no additional CSS rules added)*/
+}
+
+.largeview{ /*CSS for "large font" setting*/
+font-size: 21px;
+}
+
+.xlargeview{ /*CSS for "extra large font" setting*/
+font-size: 24px;
+}
+
+a.texttoggler{ /*CSS for Text Size Toggler control*/
+	margin-right: 6px;
+	font-weight: normal;
+	color: black;
+}
+
+a.texttoggler { /*CSS for Text Size Toggler control*/
+	text-decoration: none;
+}
+
+a.texttoggler:hover { /*CSS for Text Size Toggler control*/
+	text-decoration: underline;
+}
+
+a.selectedtoggler { /*CSS for Selected Text Size Toggler control*/
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.layotTable td  {
+	vertical-align: top;
+	padding: 0 20px;
+}
