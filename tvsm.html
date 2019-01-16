@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Intergrace Pty Ltd :: Products :: TV Show Minder</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<style media="screen" type="text/css">
+		</style>
+		<script type="text/javascript" src="doctextsizer.js"></script>
+	</head>
+	<body>
+	<table id="container" cellpadding="0" cellspacing="0">
+	<tr><td id="header">
+		<div id="logo">
+			<table>
+				<tr><td id="company" align="center" valign="bottom">Intergrace Pty Ltd</td></tr>
+				<tr><td id="slogan" align="right" valign="top">elegant IT solutions</td></tr>
+			</table>
+		</div>
+		<div id="sizeswitcher">
+			<a href="#" class="texttoggler" rel="xsmallview" title="extra small size"><span style="font-size: 8pt">A</span></a> 
+			<a href="#" class="texttoggler" rel="smallview" title="small size"><span style="font-size: 11pt">A</span></a>
+			<a href="#" class="texttoggler" rel="normalview" title="normal size"><span style="font-size: 13pt">A</span></a> 
+			<a href="#" class="texttoggler" rel="largeview" title="large size"><span style="font-size: 15pt">A</span></a> 
+			<a href="#" class="texttoggler" rel="xlargeview" title="extra large size"><span style="font-size: 17pt">A</span></a>
+		</div>
+		<script type="text/javascript">
+			documenttextsizer.setup("texttoggler");
+		</script>
+		<div style="clear: both;"></div>
+
+	</td></tr>
+	<tr><td id="menutabs" align="center" valign="top">
+		<table cellpadding="0" cellspacing="0">
+			<tr>
+				<td class="first"><a href="products.html">The&nbsp;Company</a></td>
+				<td class="active">Products</td>
+				<td><a href="services.html">Services</a></td>
+				<td><a href="downloads.html">Downloads</a></td>
+				<td class="last"><a href="contactus.html">Contact&nbsp;Us</a></td>
+			</tr>
+		</table>
+	</td></tr>
+	<tr><td id="body" valign="top">
+<h2>TV Show Minder</h2>
+<p>TV Show Minder is a free for personal use application for Realtek-based media players with the PVR/DVR functionality. Extensively tested on HiMedia HD500B-TD but designed to also work on HDium Duo, HiMedia HD560B-TD, Noontech V9-T, Egreat EG-R3 and many other devices that use Venus Linux on MIPS processors.</p>
+<p>TV Show Minder allows you to manage the timer recording schedule remotely through your favourite web browser or in the web browser of your device such as HiMedia HT500B/HD560B. Some of the functions of the application, such as setting of the recording padding, cloning of the timers and delayed shutdown, are completely unique and do not exist in the on-screen user interface of the device. The setting of the default recording padding also applies to the timers created later in the on-screen interface of the device, including those created via EPG (Electronic Programme Guide).</p>
+<h3>Brief feature list:</h3>
+<ul>
+	<li>View and set timers via Web to record TV channels and AV IN sources (for the devices with the AV input).</li>
+	<li>Set/change any name to the timers.</li>
+	<li>Edit all the timer parameters including channel and start time.</li>
+	<li>Set/change pre and post-padding for the timer start time and duration.</li>
+	<li>Save the padding values as defaults. The default values get automatically pre-populated in the new web timer form and...</li>
+	<li>The default padding automatically applies to the timers created through the standard on-screen UI / menu system (in the Scheduled Recordings screen or via the EPG screen).</li>
+	<li>Group operations: Clone, Delete, Enable or Disable multiple timers.</li>
+	<li>Delayed re-initialisation and shutdown (entering stand-by) when all the current recordings have finished.</li>
+	<li>Independent operation from Neighbour Web (Samba / Bittorrent) - separate user password and web session management.</li>
+	<li>Internal HiMedia web browser support, provides font size switching control and persistent sessions.</li>
+	<li>Automatic channel list retrieval for HiMedia firmware 1.0.1.x and 1.0.2.x (and, possibly, newer).</li>
+	<li>Manual channel list configuration for other firmware versions or similar (non-HiMedia) devices.</li>
+	<li>Free (donations are highly appreciated). No adware or spyware.</li>
+</ul>
+<h3>Screenshots:</h3>
+<p class="scrshotsicons">
+<script type="text/javascript"> 
+	function openWin(parent) {
+		window.open(parent.href, '', 'height=600,width=870');
+		return false;
+	}
+</script>
+<a href="images/schedule.png" target="screenshot" onclick="return openWin(this)"><img src="images/schedule-s.png" /></a>
+<a href="images/create.png" target="screenshot" onclick="return openWin(this)"><img src="images/create-s.png" /></a>
+<a href="images/update.png" target="screenshot" onclick="return openWin(this)"><img src="images/update-s.png" /></a>
+<a href="images/account.png" target="screenshot" onclick="return openWin(this)"><img src="images/account-s.png" /></a>
+<a href="images/prereinit.png" target="screenshot" onclick="return openWin(this)"><img src="images/prereinit-s.png" /></a>
+<a href="images/shutdown.png" target="screenshot" onclick="return openWin(this)"><img src="images/shutdown-s.png" /></a>
+</p>
+
+<h3>Download</h3>
+<p><a href="downloads.html">Click here</a></p>
+
+<a name="insttvsm.html"><h3>Installation Instructions</h3></a>
+
+<p><b>Note</b>. You have to use <i>telnet</i> to enter some unix commands. Read <a href="http://web.archive.org/web/20110315050016/http://bbs.himedia.com.au/index.php?topic=14.0">this post</a> if you haven't used <i>telnet</i> before.</p>
+
+<ol>
+<li>Decide where you want to install the application. The options are:
+    <p><b>A</b>. Internal hard disk - The easiest and the most cross-firmware compatible option, especially for the firmware 1.0.1.x.</p>
+    <p><b>B</b>. USB-connected storage or SD/MMC/MS card - as easy as Option A, but requires the external storage to be plugged in all the time.</p>
+    <p><b>C</b>. Internal flash (Nand). Best option, especially for firmware 1.0.2.31 - doesn't require internal or external disks or cards, but can be complicated for those firmware versions that don't support remounting of the root directory for writing or don't have enough free space allocated for the root partition - those firmware versions require repacking.</p>
+</li>
+<li>Prepare the directory to install into.
+    <p><b>A</b>.  Skip this step if you are NOT installing onto the internal hard drive.
+		<ul>
+		<li>Firmware 1.0.1.x: The directory already exists and is writable. It is /tmp/hdd/root/unicgi</li>
+		<li>Firmware 1.0.2.x:
+			<ol>
+			<li>Create a new directory on your hard drive, for example, <i>/tmp/hdd/volumes/HDD1/www</i>
+				<pre>mkdir /tmp/hdd/volumes/HDD1/www</pre>
+			</li>
+			<li>Copy all the files and sub-directories from /tmp/package/unicgi into it
+                 <pre>cp -r /tmp/package/unicgi/* /tmp/hdd/volumes/HDD1/www</pre>
+			</li>
+            <li>Point httpd to this new directory. Either (1) by changing the /tmp/www symlink or (2), if you use firmware 1.0.2.31, by editing /etc/inetd.conf:
+				<ol>
+				<li><pre>ln -sf /tmp/hdd/volumes/HDD1/www /tmp/www</pre>
+                     The link reverts to its original value on each restart, so put this command in the startup script (/usr/local/etc/diy/appstart). The complete appstart can look like this:
+					<pre>
+#!/bin/sh
+
+# Wait till all the disks are mounted
+sleep 35
+
+# Re-link /tmp/www
+ln -sf /tmp/hdd/volumes/HDD1/www /tmp/www</pre>
+				</li>
+				<li><a name="step2A32">(alternative for 1.0.2.31 and, possibly, newer firmware)</a>
+					<pre>
+mount -o remount,rw /
+vi /etc/inetd.conf</pre>
+                     In <i>vi</i> edit the line
+					<pre>www     stream  tcp     nowait  www-data        /usr/sbin/httpd httpd -h /var/www</pre>
+                     and change it to
+					<pre>www     stream  tcp     nowait  www-data        /usr/sbin/httpd httpd -h /tmp/hdd/volumes/HDD1/www</pre>
+                     (If new to <i>vi</i>, use <a href="http://web.archive.org/web/20110315050016/http://bbs.himedia.com.au/index.php?topic=50#msg255">this post</a> as a quick reference to commands)
+					<pre>kill -HUP `cat /var/run/inetd.pid`</pre>
+                     No need for a startup script. This is a permanent solution.
+				</li>
+				</ol>
+			</li>
+			</ol>
+		</li>
+		</ul>
+	</p>
+    <p><b>B</b>. Skip this step if you are NOT installing onto a USB device or SD/MMC/MS card.<br />
+        Same procedure as for A. Just replace references for /tmp/hdd/volumes/HDD1 with /tmp/usbmounts/<b>sdc1</b> (or <b>sdb</b>, <b>sdd</b>, etc depending on how your device was mounted).
+	</p>
+    <p><b>C</b>. Skip this step if you are NOT installing onto the internal flash (Nand)
+		<ul>
+		<li>Firmware 1.0.2.31 (might work for newer firmware as well):
+			<pre>mount -o remount,rw /</pre>
+			<p>The directory is <b>/usr/local/packages/unicgi</b> and it's writable now (until the next boot)</p>
+		</li>
+		<li>Other firmware versions:
+             To repack your firmware use <a href="http://web.archive.org/web/20110315050016/http://bbs.himedia.com.au/index.php?topic=127.0">these instructions</a>.<br />
+			 If the www root (unicgi) directory didn't exist in the flash (like in firmware 1.0.1.x), you'll need to create it (something like /usr/local/www) and edit /etc/inetd.conf to point httpd to it (See step <a href="#step2A32">2.A.3.2</a>). You'll need to re-flash your device with the repacked firmware. Follow the usual firmware update procedure, but with your repacked firmware.
+		</li>
+		</ul>
+	</p>
+</li>
+<li><p>Put the downloaded zip file onto the samba network share of your device. If your prepared directory is visible in the network share (such as /tmp/hdd/volumes/HDD1/www would appear as www), then just unzip the downloaded file in there. If not, then put it unzipped in any folder on the share, e.g. downloads.
+</p></li>
+<li><p>In telnet go to your prepared directory, unzip the file (if needed) and select the channel list access module:
+	<pre>
+cd /tmp/hdd/volumes/HDD1/www
+unzip /tmp/hdd/volumes/HDD1/downloads/tvsminder10.zip <i>(skip this command if the file is unzipped in Step 3)</i></pre>
+To select the appropriate channel list module, just rename one of the available .so files in the cgi-bin/tvsminder directory to libchlist.so
+<pre>cd cgi-bin/tvsminder</pre>
+<ul>
+<li>Firmware 1.0.1.x:
+	<pre>mv libchlist1.so libchlist.so</pre>
+</li>
+<li>Firmware 1.0.2.x (newer might also work, but not tested):
+<pre>mv libchlist2.so libchlist.so</pre>
+</li>
+<li>Other firmware / non-HiMedia firmware devices:
+	<pre>
+mv libchlistplain.so libchlist.so
+mv dtvchannels.info /usr/local/etc</pre>
+Edit /usr/local/etc/dtvchannels.info to add/remove TV channels.
+<pre>vi /usr/local/etc/dtvchannels.info</pre>
+If you are new to <i>vi</i>, refer to <a href="http://web.archive.org/web/20110315050016/http://bbs.himedia.com.au/index.php?topic=50#msg255">this post</a>.
+	</li>
+	</ul>
+</p></li>
+<li>Make the command files executable. Skip this step if your directory is on the FAT or NTFS partition (e.g. under /tmp/hdd/volumes/HDD1).
+    <pre>chmod +x tvsminder reinit *.cgi</pre>
+</li>
+<li><p>Shutdown support. Skip this step if you are using firmware 1.0.2.31 or if you've done something similar to discribed in <a href="http://web.archive.org/web/20110315050016/http://bbs.himedia.com.au/index.php?topic=236.0">this post, Step 1 "For old firmware..."</a> to use /tmp/command_sender.txt.
+</p>
+<p>
+    Edit /usr/local/etc/rcS using <i>vi</i>. Find the line:
+    <pre>./RootApp DvdPlayer&amp;</pre>
+    and replace it with the following line:
+    <pre>touch /tmp/command_sender.txt &amp;&amp; tail -f /tmp/command_sender.txt | ./RootApp DvdPlayer&amp;</pre>
+</p>
+</li>
+</ol>
+
+<p>That's it. Access the application by navigating to<br /><b>http://<i>venus.ip.address</i>/cgi-bin/tvsminder/tvsminder.cgi</b><br />
+(where <i>venus.ip.address</i> is the IP address of your device) in your computer web browser or<br />
+<a href="http://localhost/cgi-bin/tvsminder/tvsminder.cgi">http://localhost/cgi-bin/tvsminder/tvsminder.cgi</a><br />
+in the web browser of your device (such as HiMedia HD500B/HD560B)
+</p>
+<p>The login name is <i>admin</i> and the initial password is <i>123</i></p>
+<p>You can change the password later in the Account screen of TV Show Minder. The login and password are independent from the login / password used in Samba and Neigbour Web (if the security is on). Primarily this is because the security for timers has to be always on (the application is designed to be used over the Internet), even if the system security is off because you want to continue using Samba without passwords.
+</p>
+<p>A note on the HiMedia web browser. It's very basic and has many limitations. One of them is the inability to store HTTP cookies. All the cookies disappear when you leave the browser. This is why many websites requiring logging in ask to log in again on next visit even if you ticked "Remember me" or "Stay signed in" during log-in last time. TV Show Minder, however, has a special mechanism to overcome this problem and to go straight into the application on the next visit. For this to work you must save a bookmark ("favorite") in the web browser. If you are using firmware 1.0.2.31 then you are good to go, but if the web browser in your firmware can't save bookmarks, read <a href="http://web.archive.org/web/20110315050016/http://bbs.himedia.com.au/index.php?topic=175">this post</a> on how to make it to do so.
+</p>
+<p>Here is what you need to do to stay signed in the HiMedia web browser: in the login screen tick "Stay signed in" and log in. When you get to the main page (Scheduled Timers), click on the Schedule menu tab. The screen will refresh. You can also notice that the URL now contains parameter icgisession. Bookmark the page now. When you use this bookmark next time you open the web browser, the login screen won't come up, unless you explicitly logged out from the last session. If you have logged out you'll need to re-login, click Schedule and save the bookmark again.
+</p>
+<p>Please consider making a small donation to support our work on this product</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_donations" />
+<input type="hidden" name="business" value="P7DB8K74D7RNQ" />
+<input type="hidden" name="lc" value="AU" />
+<input type="hidden" name="item_name" value="Intergrace Pty Ltd" />
+<input type="hidden" name="item_number" value="PVR App" />
+<input type="hidden" name="currency_code" value="AUD" />
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" />
+<input type="image" src="https://www.paypal.com/en_AU/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal" />
+<img alt="" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
+</form>
+	</td></tr> <!-- #body -->
+	<tr><td id="footer">Copyright &copy;2019 Intergrace Pty Ltd</td></tr>
+	</table>
+	</body>
+</html>
