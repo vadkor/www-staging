@@ -147,8 +147,3 @@ a.selectedtoggler { /*CSS for Selected Text Size Toggler control*/
 	text-decoration: underline;
 	font-weight: bold;
 }
-
-.layotTable td  {
-	vertical-align: top;
-	padding: 0 20px;
-}
